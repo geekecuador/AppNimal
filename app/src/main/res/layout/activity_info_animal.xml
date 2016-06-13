@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_animal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app"
+    tools:context="app.androidhive.info.realm.InfoAnimalActivity">
+    <!--<ImageView-->
+        <!--android:layout_width="384dp"-->
+        <!--android:layout_height="132dp"-->
+        <!--tools:layout_editor_absoluteX="7dp"-->
+        <!--tools:layout_editor_absoluteY="48dp" />-->
+
+<!--<TextView-->
+    <!--android:layout_width="172dp"-->
+    <!--android:layout_height="31dp"-->
+    <!--android:text="Tipo de alimento:"-->
+    <!--tools:layout_editor_absoluteX="16dp"-->
+    <!--tools:layout_editor_absoluteY="160dp" />-->
+
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Pasto"-->
+            <!--android:id="@+id/radioButton2"-->
+            <!--tools:layout_editor_absoluteX="50dp"-->
+            <!--tools:layout_editor_absoluteY="204dp" />-->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Balanceado"-->
+            <!--android:id="@+id/radioButton"-->
+            <!--tools:layout_editor_absoluteX="255dp"-->
+            <!--tools:layout_editor_absoluteY="216dp" />-->
+
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Mixto"-->
+            <!--android:id="@+id/radioButton3"-->
+            <!--tools:layout_editor_absoluteX="176dp"-->
+            <!--tools:layout_editor_absoluteY="216dp" />-->
+
+<!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Cantidad en libras"-->
+    <!--tools:layout_editor_absoluteX="16dp"-->
+    <!--tools:layout_editor_absoluteY="252dp" />-->
+<!--<EditText-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Libras"-->
+    <!--tools:layout_editor_absoluteX="50dp"-->
+    <!--tools:layout_editor_absoluteY="276dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Números de ordeños"-->
+        <!--tools:layout_editor_absoluteX="16dp"-->
+        <!--tools:layout_editor_absoluteY="331dp" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Numero de ordeños"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Litros por ordeño"-->
+        <!--/>-->
+
+<!--<EditText-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Litros por ordeño"-->
+    <!--/>-->
+
+</android.support.constraint.ConstraintLayout>

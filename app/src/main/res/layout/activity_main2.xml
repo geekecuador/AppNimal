@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app"
+    tools:context="app.androidhive.info.realm.Main2Activity">
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logoanimal"
+        android:scaleType="center"
+        android:id="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/activity_main2"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/btnSiguiente"
+        android:layout_marginBottom="8dp"
+        tools:layout_constraintBottom_creator="1" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="Mision:"
+        android:textStyle="normal|bold|italic"
+        android:id="@+id/txtvision"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/activity_main2"
+        android:layout_marginTop="50dp"
+        tools:layout_constraintTop_creator="1" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="101dp"
+
+        android:ems="10"
+        android:id="@+id/area_Vision"
+        android:hint=""
+        android:textStyle="normal|italic"
+
+        android:text="Somos una empresa dedicada al desarrollado de aplicaciones para controlar la salud de las mascostas y mejorar la productividad del ganado, brindando información confiable y permitiendo el seguimiento oportuno, desde la comodidad de un smartphone"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/txtvision"
+        android:layout_marginTop="40dp"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/activity_main2"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/txtVision"
+        android:layout_marginBottom="40dp"
+        tools:layout_constraintBottom_creator="1" />
+        <!--android:textAlignment="viewStart"-->
+        android:layout_gravity="center_vertical|right"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Visión:"
+        android:textStyle="normal|bold|italic"
+        android:id="@+id/txtVision"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/activity_main2"
+        android:layout_marginTop="215dp"
+        tools:layout_constraintTop_creator="1" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="82dp"
+
+        android:ems="10"
+        android:id="@+id/area_Mision"
+        android:text="Ser para el 2018 la aplicación dedicada para el control de la productividad más descargada y preferida del país"
+        android:textStyle="normal|italic"
+        android:layout_gravity="center_vertical|right"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/area_Vision"
+        android:layout_marginTop="55dp"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/activity_main2"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:background="@drawable/esquinas"
+        android:id="@+id/btnSiguiente"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/activity_main2"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main2"
+        android:layout_marginBottom="8dp"
+
+
+        tools:layout_constraintBottom_creator="1"
+        android:textColor="#ffffff" />
+</android.support.constraint.ConstraintLayout>
